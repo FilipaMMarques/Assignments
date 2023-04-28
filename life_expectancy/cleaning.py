@@ -8,7 +8,7 @@ DATA_PATH = Path(__file__).parent / 'data'
 
 def clean_data(
     reg="PT",
-    data= DATA_PATH 
+    data= DATA_PATH
     ):
     """cleaning data"""
     df=pd.read_csv(
